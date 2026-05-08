@@ -1,9 +1,10 @@
-import '../styles/BuyButton.css';
+import type React from 'react';
+import '../styles/Button.css';
 
-function BuyButton({ className}: {className?: string}) {
+function Button({ className, children }: {className?: string, children?: React.ReactNode}) {
   return (
     <div className="flex">
-      <p className={`buttonText border-solid 
+      <p className={`butText border-solid 
         border-[#FFFFFF] text-center
         hover:border-[rgba(255,255,255,0.7)]
         hover:scale-90
@@ -12,10 +13,10 @@ function BuyButton({ className}: {className?: string}) {
         hover:cursor-pointer
         ${className}
         `}>
-            Buy Now
+            {children}
         </p>
 </div>
   )
 }
 
-export default BuyButton
+export default Button

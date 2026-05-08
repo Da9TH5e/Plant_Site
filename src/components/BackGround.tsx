@@ -3,12 +3,11 @@ export function BackGround({ className }: {className?: string}) {
     <div className={`
         flex
         overflow-y-auto
-        bg-[url(/background_img_1.png)]
-        bg-cover
-        h-full
         w-screen
+        h-fill
         ${ className }
     `}>
+      <img src="/background_img_1.png" />
     </div>
   )
 }
