@@ -3,7 +3,7 @@ import '../styles/BorderGradient.css';
 
 function BorderGradient3Stops({className, children, className1}: {className?: string, className1?: string, children?: React.ReactNode}) {
   return (
-    <div className="relative w-fit">
+    <div className="relative w-full">
         <div className={`
             gradientBorder
             absolute

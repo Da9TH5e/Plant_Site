@@ -5,7 +5,7 @@ import PartialBorder from './PartialBorder';
 
 function TrendingPlants() {
   return (
-    <div className="flex flex-col w-fill">
+    <div className="flex flex-col w-full">
         <div className="flex justify-center mb-20 pb-10">
             <PartialBorder className="text-[30px] text-white">
                 <h3 className="trendHeader">Our Trending Plants</h3>
