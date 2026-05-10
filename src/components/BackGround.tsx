@@ -2,13 +2,9 @@ export function BackGround({ className }: {className?: string}) {
   return (
     <div className={`
         bg-[url(/background_img_1.png)]
-        bg-cover
-        bg-center
-        sm:w-325
-        xl:w-full
+        xs:bg-top
+        bg-size-[100%]
         bg-no-repeat
-        w-325
-        h-full
         ${className}
     `}>
     </div>

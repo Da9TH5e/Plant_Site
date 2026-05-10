@@ -1,40 +1,30 @@
-import BuyButton from "../Button";
+import BuyButton from "../BuyButton";
 
 export default function Plants({className}: {className?: string}) {
   return (
-    <div className={`relative flex items-end py-4 ${className}`}>
-      <img src="/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png" className="absolute h-114.75 -top-58 -left-43 z-10"/>
-      <div className="-translate-x-41 w-110 -translate-y-45">
-          <div className="
-              gradientBorder
-              absolute
-              rounded-3xl
-              bg-linear-to-br
-              from-white
-              to-black
-              z-1 inset-0 p-px
-          ">
-          </div>
-          <div className="
-          relative
-              pt-64
-              p-4
-              bg-[rgba(255,255,255,0.05)]
-              rounded-3xl
-              backdrop-blur-[6px]
-          ">
-              <div className="text-[rgba(255,255,255,0.75)]">
-                  <p className="text-[13px]">Indoor Plant</p>
-                  <div className="flex flex-row items-center justify-between">
-                      <h2 className="whitespace-nowrap text-[29px]">Aglaonema  plant</h2>
-                      <img src="/right-arrow 1.svg" />
-                  </div>
-                  <div className="pt-2">
-                      <BuyButton className="w-40 h-10 pt-1 rounded-[7px] text-[20px]"/>
-                  </div>
+    <div className={`relative flex items-end space-x-[-2vw] py-[0.556vw] ${className}`}>
+      <img src="/Rose Gold Feminine Calligraphy Monogram Logo(15) 3.png" className="absolute h-[32.875vw]
+        left-[-10vw] bottom-[38%] z-10"/>
+        <div className="self-end translate-x-[-7vw] w-[30.556vw]">
+          <img src="/Rectangle 14.svg" className="z-[-1] mt-[10vw]" />
+          <div className="absolute bottom-[15%] text-[rgba(255,255,255,0.75)] p-[1.2vw]">
+              <p className="text-[0.903vw]">Indoor Plant</p>
+              <div className="flex flex-row items-center gap-x-[6.111vw] justify-between">
+                  <h2 className="whitespace-nowrap text-[2.014vw]">Aglaonema  plant</h2>
+                  <img src="/right-arrow 1.svg" className="flex pl-[5.377vw] h-[2.22vw]" />
+              </div>
+              <div className="pt-[1.556vw]">
+                  <BuyButton className="w-[11.111vw] pt-[0.278vw] rounded-[0.286vw] text-[1.389vw] border"/>
               </div>
           </div>
+          <div className="flex absolute bottom-[4vw] left-0 right-0 justify-center gap-[0.7vw]">
+            <img src="/Rectangle 4.svg" className="h-[0.5vw] w-[1.5vw]"/>
+            <div className="flex gap-[0.5vw]">
+                <img src="/Ellipse 4.svg" className="w-[0.5vw]"/>
+                <img src="/Ellipse 5.svg" className="w-[0.5vw]"/>
+            </div>
+          </div>
       </div>
-  </div>
+      </div>
   )
 }

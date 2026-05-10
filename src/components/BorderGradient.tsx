@@ -7,7 +7,7 @@ function BorderGradient({className, children}: {className?: string, children?: R
         <div className={`
             gradientBorder
             absolute
-            rounded-3xl
+            rounded-[1.667vw]
             bg-linear-to-br
             from-[rgba(255,255,255,1)]
             to-[rgba(102,102,102,1)]
@@ -17,7 +17,6 @@ function BorderGradient({className, children}: {className?: string, children?: R
         </div>
         <div className={`
             relative
-            rounded-3xl
             backdrop-blur-md
             ${className}    
         `}>

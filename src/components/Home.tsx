@@ -6,14 +6,17 @@ import TrendingPlants from "./TrendingPlants";
 
 function Home() {
   return (
-    <div className="relative flex flex-col w-full">
+    <div className="relative flex flex-col overflow-x-hidden">
       <Navbar />
       <div className="flex flex-row justify-between">
         <HeroText />
-        <Plants className="mt-49 left-20"/>
+        <Plants className="pr-[8.333vw] left-[12.278vw]"/>
       </div>
-      <div className="flex mt-45 relative">
+      <div className="flex xs:mt-1 xl:mt-45 relative">
         <TrendingPlants />
+      </div>
+      <div>
+        
       </div>
       <BackGround className="absolute inset-0 -z-10"/>
     </div>

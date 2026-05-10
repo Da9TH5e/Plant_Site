@@ -10,6 +10,7 @@ function BuyButton({ className}: {className?: string}) {
         transition-transform duration-300
         hover:text-[rgba(255,255,255,0.6)]
         hover:cursor-pointer
+        items-center
         ${className}
         `}>
             Buy Now
