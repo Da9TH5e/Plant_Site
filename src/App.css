@@ -4,6 +4,9 @@
     background-color: #1A2217;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
 @theme {
     --breakpoint-*: initial;

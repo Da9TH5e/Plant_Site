@@ -1,7 +1,8 @@
-import '../styles/TrendingPlants.css';
-import BorderGradient3Stops from './BorderGradient3Stops';
-import Button from './Button';
-import PartialBorder from './PartialBorder';
+import '../../styles/TrendingPlants.css';
+import BorderGradient3Stops from '../BorderGradient3Stops';
+import Button from '../Button';
+import CartButton2 from '../CartButton2';
+import PartialBorder from '../PartialBorder';
 
 function TrendingPlants() {
   return (
@@ -31,9 +32,7 @@ function TrendingPlants() {
                                 ">
                                     Explore
                                 </Button>
-                                <Button className="rounded-[0.486vw] p-[0.833vw] justify-center border-[0.139vw]">
-                                    <img src="/bag 3.svg" className="w-[1.944vw] h-[1.944vw]"/>
-                                </Button>
+                                <CartButton2 className="rounded-[0.486vw] p-[0.833vw] justify-center border-[0.139vw]"/>
                             </div>
                         </div>
                     </div>
@@ -55,8 +54,9 @@ function TrendingPlants() {
                             <h3 className="plantPrice text-white text-[2.083vw]">Rs. 399/-</h3>
                             <div className="flex gap-[0.972vw]">
                                 <Button className="border-[0.139vw] text-white 
-                                rounded-[0.486vw] p-[0.833vw] w-[8.333vw]
-                                text-[1.389vw]">
+                                rounded-[0.486vw] p-[0.833vw] w-[11.111vw] 
+                                text-[1.389vw]
+                                ">
                                     Explore
                                 </Button>
                                 <Button className="rounded-[0.486vw] p-[0.833vw] justify-center border-[0.139vw]">

@@ -1,4 +1,4 @@
-import './../styles/Navbar.css';
+import '../../styles/Subsection styles/Navbar.css';
 
 function Navbar() {
   return (
@@ -14,39 +14,17 @@ function Navbar() {
         <ul className="navlist flex h-auto text-white 
         text-[1.667vw] font-normal items-center 
         gap-[2.778vw] pt-[0.417vw] list-none">
-          <li><a href="#">Home</a></li>
+          <li><a href="#" className="cursor-pointer">Home</a></li>
 
           <ul className="relative group">
             <div className="flex flex-row items-center gap-[0.556vw]">
-              <a href="#" className="cursor-pointer justify-center">Plants Type</a>
-              <img src="/Polygon 1.svg" className="w-[1.111vw] h-[0.667vw] pt-[0.278vw] group"/>
-            </div>
-            <div className="
-              bg-linear-to-b
-              from-white
-              to-black
-              relative
-              opacity-0 invisible
-              group-hover:opacity-100 group-hover:visible
-              transition-all duration-200
-              ">
-              <div className="
-                  absolute left-0 top-full mt-[0.556vw]
-                  backdrop-blur-xs
-                  rounded-md
-                  bg-[rgba(255,255,255,0.05)]
-                  text-white text-[1.25vw]
-                  flex flex-col gap-[0.556vw] p-[0.833vw] w-screen
-                ">
-                <li><a href="#" className="hover:text-[#dfdfdfaf]">Trending</a></li>
-                <li><a href="#" className="hover:text-[#dfdfdfaf]">Best Selling</a></li>
-                <li><a href="#" className="hover:text-[#dfdfdfaf]">Best O2</a></li>
-              </div>
+              <a href="#" className="group cursor-pointer justify-center">Plants Type</a>
+              <img src="/Polygon 1.svg" className="w-[1.111vw] h-[0.667vw] pt-[0.278vw] group-hover:rotate-180 transition-all delay-300"/>
             </div>
           </ul>
 
-          <li><a href="#">More</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#" className="cursor-pointer">More</a></li>
+          <li><a href="#" className="cursor-pointer">Contact</a></li>
         </ul>
         <div className="flex gap-[2.778vw] items-center">
           <div className="flex flex-row items-center gap-[4.167vw]">
