@@ -34,7 +34,3 @@ Build project:
 ## 🌐 Live Demo
 
 [https://tubular-crisp-5ece50.netlify.app/](https://tubular-crisp-5ece50.netlify.app/)
-
-## Repository
-
-Add your GitHub repository link here.
